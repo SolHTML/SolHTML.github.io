@@ -1,1 +1,41 @@
+.cyan {
+    color: cyan;
+    font-size: 64px;
+}
 
+.red {
+    color: red;
+    font-size: 26px;
+}
+body {
+    background-color: black;
+}
+
+/* -------- custome scrollbar --------- */
+.scroll_bg {
+    height: 100vh; /* Set the height to the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll_div {
+    height: 100%; /* Set the height of the scrollable area */
+    overflow-y: auto; /* Add vertical scrollbar when necessary */
+    padding: 20px; /* Add some padding for better appearance */
+}
+
+.scroll_object {
+    position: relative;
+}
+
+
+.pars{
+    color: white;
+    font-size: 20px;
+}
+
+.link{
+    color: blue;
+    font-size: 40px;
+}
